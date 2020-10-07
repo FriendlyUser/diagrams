@@ -5,6 +5,11 @@ title: OnPrem
 
 Node classes list of onprem provider.
 
+## onprem.aggregator
+
+- **diagrams.onprem.aggregator.Fluentd**
+- **diagrams.onprem.aggregator.Vector**
+
 ## onprem.analytics
 
 - **diagrams.onprem.analytics.Beam**
@@ -19,6 +24,11 @@ Node classes list of onprem provider.
 - **diagrams.onprem.analytics.Spark**
 - **diagrams.onprem.analytics.Storm**
 - **diagrams.onprem.analytics.Tableau**
+
+## onprem.auth
+
+- **diagrams.onprem.auth.BuzzfeedSso**
+- **diagrams.onprem.auth.Oauth2Proxy**
 
 ## onprem.cd
 
@@ -97,6 +107,10 @@ Node classes list of onprem provider.
 - **diagrams.onprem.iac.Awx**
 - **diagrams.onprem.iac.Terraform**
 
+## onprem.identity
+
+- **diagrams.onprem.identity.Dex**
+
 ## onprem.inmemory
 
 - **diagrams.onprem.inmemory.Aerospike**
@@ -107,7 +121,6 @@ Node classes list of onprem provider.
 ## onprem.logging
 
 - **diagrams.onprem.logging.Fluentbit**, **FluentBit** (alias)
-- **diagrams.onprem.logging.Fluentd**
 - **diagrams.onprem.logging.Graylog**
 - **diagrams.onprem.logging.Loki**
 - **diagrams.onprem.logging.Rsyslog**, **RSyslog** (alias)
